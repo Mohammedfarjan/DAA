@@ -1,0 +1,122 @@
+{
+ "depot": "D",
+ "capacity": 20,
+ "nodes": [
+  "D",
+  "A",
+  "B",
+  "C",
+  "E",
+  "F"
+ ],
+ "edges": [
+  [
+   "D",
+   "A",
+   4
+  ],
+  [
+   "D",
+   "B",
+   2
+  ],
+  [
+   "A",
+   "B",
+   1
+  ],
+  [
+   "A",
+   "C",
+   5
+  ],
+  [
+   "B",
+   "C",
+   8
+  ],
+  [
+   "B",
+   "E",
+   10
+  ],
+  [
+   "C",
+   "E",
+   2
+  ],
+  [
+   "C",
+   "F",
+   6
+  ],
+  [
+   "E",
+   "F",
+   3
+  ],
+  [
+   "D",
+   "F",
+   15
+  ]
+ ],
+ "parcels": [
+  {
+   "pid": "P01",
+   "dest": "A",
+   "weight": 5,
+   "priority": 5,
+   "deadline": 4
+  },
+  {
+   "pid": "P02",
+   "dest": "B",
+   "weight": 8,
+   "priority": 3,
+   "deadline": 10
+  },
+  {
+   "pid": "P03",
+   "dest": "C",
+   "weight": 6,
+   "priority": 4,
+   "deadline": 6
+  },
+  {
+   "pid": "P04",
+   "dest": "E",
+   "weight": 9,
+   "priority": 2,
+   "deadline": 24
+  },
+  {
+   "pid": "P05",
+   "dest": "F",
+   "weight": 4,
+   "priority": 5,
+   "deadline": 3
+  },
+  {
+   "pid": "P06",
+   "dest": "A",
+   "weight": 7,
+   "priority": 1,
+   "deadline": 30
+  },
+  {
+   "pid": "P07",
+   "dest": "C",
+   "weight": 3,
+   "priority": 3,
+   "deadline": 12
+  },
+  {
+   "pid": "P08",
+   "dest": "E",
+   "weight": 10,
+   "priority": 4,
+   "deadline": 8
+  }
+ ]
+}

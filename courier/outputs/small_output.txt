@@ -1,0 +1,29 @@
+==============================================================================
+DATASET: data/small.json
+==============================================================================
+
+[1] PARCELS SORTED (deadline asc, priority desc)
+    P05  dest=F   wt=4   pr=5 dl=3  h value=71
+    P01  dest=A   wt=5   pr=5 dl=4  h value=70
+    P03  dest=C   wt=6   pr=4 dl=6  h value=58
+    P08  dest=E   wt=10  pr=4 dl=8  h value=56
+    P02  dest=B   wt=8   pr=3 dl=10 h value=44
+    P07  dest=C   wt=3   pr=3 dl=12 h value=42
+    P04  dest=E   wt=9   pr=2 dl=24 h value=20
+    P06  dest=A   wt=7   pr=1 dl=30 h value=10
+
+[2] KNAPSACK  capacity=20kg  best total value=241
+    Loaded : P05(4kg), P01(5kg), P03(6kg), P07(3kg)
+    Weight used = 18kg   |  Left for next trip: P08, P02, P04, P06
+
+[3] DIJKSTRA from depot D
+    D -> A: dist=3    path=D -> B -> A
+    D -> C: dist=8    path=D -> B -> A -> C
+    D -> F: dist=13   path=D -> B -> A -> C -> E -> F
+
+[4] NEAREST-NEIGHBOUR ROUTE  length=26
+    D -> A -> C -> F -> D
+    After 2-opt: length=26  route: D -> A -> C -> F -> D
+    Full road path: D -> B -> A -> C -> E -> F -> E -> C -> A -> B -> D
+
+[5] RUNTIME (ms): sort=0.013, knapsack=0.020, dijkstra=0.022, tsp_nn=0.009, two_opt=0.011, total=0.075

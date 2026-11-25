@@ -1,0 +1,17 @@
+Sorting
+  [PASS] merge_sort correct for n=0
+  [PASS] merge_sort correct for n=1
+  [PASS] merge_sort correct for n=10
+  [PASS] merge_sort correct for n=200
+  [PASS] quick sort keys match
+  [PASS] insertion sort keys match
+Knapsack (DP vs brute force over all subsets)
+  [PASS] 25 random instances: DP value == brute-force optimum, capacity respected
+Dijkstra (vs Floyd-Warshall)
+  [PASS] all-pairs distances match on data/small.json
+  [PASS] all-pairs distances match on data/medium.json
+TSP approximation (NN vs exact brute force, 7 stops)
+  [PASS] NN never better than optimal; 2-opt never worse than NN
+  Average NN/OPT = 1.042, worst = 1.157
+  Average 2opt/OPT = 1.008, worst = 1.062
+ALL TESTS PASSED

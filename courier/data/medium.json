@@ -1,0 +1,570 @@
+{
+ "depot": "D",
+ "capacity": 60,
+ "nodes": [
+  "D",
+  "C1",
+  "C2",
+  "C3",
+  "C4",
+  "C5",
+  "C6",
+  "C7",
+  "C8",
+  "C9",
+  "C10",
+  "C11",
+  "C12",
+  "C13",
+  "C14",
+  "C15",
+  "C16",
+  "C17",
+  "C18",
+  "C19",
+  "C20",
+  "C21",
+  "C22",
+  "C23",
+  "C24"
+ ],
+ "edges": [
+  [
+   "C1",
+   "D",
+   6
+  ],
+  [
+   "C2",
+   "C1",
+   3
+  ],
+  [
+   "C3",
+   "D",
+   19
+  ],
+  [
+   "C4",
+   "D",
+   13
+  ],
+  [
+   "C5",
+   "C4",
+   3
+  ],
+  [
+   "C6",
+   "C4",
+   8
+  ],
+  [
+   "C7",
+   "D",
+   4
+  ],
+  [
+   "C8",
+   "C6",
+   15
+  ],
+  [
+   "C9",
+   "C1",
+   9
+  ],
+  [
+   "C10",
+   "C1",
+   19
+  ],
+  [
+   "C11",
+   "C6",
+   3
+  ],
+  [
+   "C12",
+   "C9",
+   5
+  ],
+  [
+   "C13",
+   "C3",
+   20
+  ],
+  [
+   "C14",
+   "D",
+   20
+  ],
+  [
+   "C15",
+   "C9",
+   14
+  ],
+  [
+   "C16",
+   "C1",
+   9
+  ],
+  [
+   "C17",
+   "C1",
+   19
+  ],
+  [
+   "C18",
+   "C4",
+   11
+  ],
+  [
+   "C19",
+   "C13",
+   6
+  ],
+  [
+   "C20",
+   "C17",
+   5
+  ],
+  [
+   "C21",
+   "C18",
+   11
+  ],
+  [
+   "C22",
+   "C17",
+   7
+  ],
+  [
+   "C23",
+   "C3",
+   20
+  ],
+  [
+   "C24",
+   "C18",
+   8
+  ],
+  [
+   "C11",
+   "C3",
+   19
+  ],
+  [
+   "C22",
+   "C2",
+   20
+  ],
+  [
+   "C1",
+   "C19",
+   8
+  ],
+  [
+   "C15",
+   "C21",
+   19
+  ],
+  [
+   "C13",
+   "C24",
+   12
+  ],
+  [
+   "C14",
+   "C18",
+   16
+  ],
+  [
+   "C11",
+   "C9",
+   9
+  ],
+  [
+   "C5",
+   "C22",
+   9
+  ],
+  [
+   "C2",
+   "C18",
+   11
+  ],
+  [
+   "C16",
+   "C15",
+   12
+  ],
+  [
+   "C23",
+   "C14",
+   11
+  ],
+  [
+   "C19",
+   "C2",
+   5
+  ],
+  [
+   "C16",
+   "C13",
+   7
+  ],
+  [
+   "C24",
+   "C10",
+   6
+  ],
+  [
+   "C15",
+   "C13",
+   3
+  ],
+  [
+   "C21",
+   "C2",
+   19
+  ],
+  [
+   "C18",
+   "C10",
+   12
+  ],
+  [
+   "C22",
+   "C11",
+   17
+  ],
+  [
+   "C8",
+   "C15",
+   4
+  ],
+  [
+   "C1",
+   "C23",
+   11
+  ],
+  [
+   "C20",
+   "C18",
+   16
+  ],
+  [
+   "C9",
+   "C22",
+   14
+  ],
+  [
+   "C21",
+   "C11",
+   2
+  ],
+  [
+   "C14",
+   "C11",
+   7
+  ],
+  [
+   "C19",
+   "C3",
+   17
+  ],
+  [
+   "C1",
+   "C6",
+   11
+  ],
+  [
+   "C4",
+   "C23",
+   9
+  ]
+ ],
+ "parcels": [
+  {
+   "pid": "P001",
+   "dest": "C16",
+   "weight": 2,
+   "priority": 2,
+   "deadline": 30
+  },
+  {
+   "pid": "P002",
+   "dest": "C13",
+   "weight": 9,
+   "priority": 3,
+   "deadline": 10
+  },
+  {
+   "pid": "P003",
+   "dest": "C14",
+   "weight": 14,
+   "priority": 5,
+   "deadline": 19
+  },
+  {
+   "pid": "P004",
+   "dest": "C23",
+   "weight": 7,
+   "priority": 3,
+   "deadline": 45
+  },
+  {
+   "pid": "P005",
+   "dest": "C13",
+   "weight": 4,
+   "priority": 2,
+   "deadline": 7
+  },
+  {
+   "pid": "P006",
+   "dest": "C6",
+   "weight": 3,
+   "priority": 2,
+   "deadline": 44
+  },
+  {
+   "pid": "P007",
+   "dest": "C8",
+   "weight": 1,
+   "priority": 4,
+   "deadline": 39
+  },
+  {
+   "pid": "P008",
+   "dest": "C6",
+   "weight": 5,
+   "priority": 3,
+   "deadline": 2
+  },
+  {
+   "pid": "P009",
+   "dest": "C5",
+   "weight": 7,
+   "priority": 5,
+   "deadline": 25
+  },
+  {
+   "pid": "P010",
+   "dest": "C20",
+   "weight": 10,
+   "priority": 3,
+   "deadline": 10
+  },
+  {
+   "pid": "P011",
+   "dest": "C23",
+   "weight": 14,
+   "priority": 5,
+   "deadline": 41
+  },
+  {
+   "pid": "P012",
+   "dest": "C21",
+   "weight": 11,
+   "priority": 1,
+   "deadline": 31
+  },
+  {
+   "pid": "P013",
+   "dest": "C22",
+   "weight": 13,
+   "priority": 5,
+   "deadline": 27
+  },
+  {
+   "pid": "P014",
+   "dest": "C13",
+   "weight": 7,
+   "priority": 4,
+   "deadline": 8
+  },
+  {
+   "pid": "P015",
+   "dest": "C16",
+   "weight": 11,
+   "priority": 4,
+   "deadline": 5
+  },
+  {
+   "pid": "P016",
+   "dest": "C7",
+   "weight": 2,
+   "priority": 2,
+   "deadline": 30
+  },
+  {
+   "pid": "P017",
+   "dest": "C6",
+   "weight": 2,
+   "priority": 3,
+   "deadline": 40
+  },
+  {
+   "pid": "P018",
+   "dest": "C2",
+   "weight": 2,
+   "priority": 1,
+   "deadline": 38
+  },
+  {
+   "pid": "P019",
+   "dest": "C5",
+   "weight": 9,
+   "priority": 1,
+   "deadline": 25
+  },
+  {
+   "pid": "P020",
+   "dest": "C20",
+   "weight": 1,
+   "priority": 1,
+   "deadline": 15
+  },
+  {
+   "pid": "P021",
+   "dest": "C20",
+   "weight": 7,
+   "priority": 2,
+   "deadline": 42
+  },
+  {
+   "pid": "P022",
+   "dest": "C9",
+   "weight": 6,
+   "priority": 5,
+   "deadline": 25
+  },
+  {
+   "pid": "P023",
+   "dest": "C16",
+   "weight": 2,
+   "priority": 1,
+   "deadline": 33
+  },
+  {
+   "pid": "P024",
+   "dest": "C15",
+   "weight": 8,
+   "priority": 4,
+   "deadline": 21
+  },
+  {
+   "pid": "P025",
+   "dest": "C3",
+   "weight": 3,
+   "priority": 1,
+   "deadline": 23
+  },
+  {
+   "pid": "P026",
+   "dest": "C24",
+   "weight": 5,
+   "priority": 4,
+   "deadline": 46
+  },
+  {
+   "pid": "P027",
+   "dest": "C6",
+   "weight": 9,
+   "priority": 1,
+   "deadline": 15
+  },
+  {
+   "pid": "P028",
+   "dest": "C17",
+   "weight": 6,
+   "priority": 2,
+   "deadline": 46
+  },
+  {
+   "pid": "P029",
+   "dest": "C18",
+   "weight": 15,
+   "priority": 1,
+   "deadline": 35
+  },
+  {
+   "pid": "P030",
+   "dest": "C10",
+   "weight": 11,
+   "priority": 1,
+   "deadline": 46
+  },
+  {
+   "pid": "P031",
+   "dest": "C9",
+   "weight": 9,
+   "priority": 3,
+   "deadline": 12
+  },
+  {
+   "pid": "P032",
+   "dest": "C12",
+   "weight": 13,
+   "priority": 2,
+   "deadline": 36
+  },
+  {
+   "pid": "P033",
+   "dest": "C18",
+   "weight": 13,
+   "priority": 5,
+   "deadline": 23
+  },
+  {
+   "pid": "P034",
+   "dest": "C21",
+   "weight": 4,
+   "priority": 5,
+   "deadline": 14
+  },
+  {
+   "pid": "P035",
+   "dest": "C8",
+   "weight": 14,
+   "priority": 4,
+   "deadline": 16
+  },
+  {
+   "pid": "P036",
+   "dest": "C7",
+   "weight": 9,
+   "priority": 4,
+   "deadline": 24
+  },
+  {
+   "pid": "P037",
+   "dest": "C24",
+   "weight": 1,
+   "priority": 1,
+   "deadline": 19
+  },
+  {
+   "pid": "P038",
+   "dest": "C16",
+   "weight": 5,
+   "priority": 2,
+   "deadline": 46
+  },
+  {
+   "pid": "P039",
+   "dest": "C20",
+   "weight": 6,
+   "priority": 4,
+   "deadline": 48
+  },
+  {
+   "pid": "P040",
+   "dest": "C12",
+   "weight": 6,
+   "priority": 1,
+   "deadline": 16
+  }
+ ]
+}
